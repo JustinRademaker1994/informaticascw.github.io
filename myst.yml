@@ -22,9 +22,12 @@ project:
     - file: 3-physicalcomputing/_physicalcomputing.md
       children:
         - pattern: 3-physicalcomputing/*-*.md
-    - file: 4-gdevelop/_gdevelop.md
-      #children:
-        #- pattern: 4-gdevelop/*-*.md
+    - file: 4-pixlr/_pixlr.md
+      children:
+        - pattern: 4-pixlr/*-*.md
+    - file: 5-gdevelop/_gdevelop.md
+      children:
+        - pattern: 5-gdevelop/*-*.md
     - file: 10-help/_help.md
       children:
         - pattern: 10-help/*-*.md
